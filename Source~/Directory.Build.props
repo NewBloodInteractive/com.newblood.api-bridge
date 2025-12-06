@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>14</LangVersion>
+    <NoWarn>$(NoWarn);CS0618;CS0626;CS1591;CS8500</NoWarn>
+    <PackageDirectory>$(MSBuildThisFileDirectory)..\</PackageDirectory>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+  </PropertyGroup>
+</Project>

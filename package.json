@@ -1,0 +1,6 @@
+{
+    "name": "com.newblood.api-bridge",
+    "displayName": "Private API Bridge",
+    "version": "1.0.0",
+    "type": "library"
+}

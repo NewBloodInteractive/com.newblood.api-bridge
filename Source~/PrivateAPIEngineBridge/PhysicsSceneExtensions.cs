@@ -1,0 +1,20 @@
+﻿using UnityEngine;
+
+namespace PrivateAPIBridge;
+
+/// <summary>Provides extensions for <see cref="PhysicsScene"/>.</summary>
+public static class PhysicsSceneExtensions
+{
+    extension(PhysicsScene)
+    {
+        public static bool Internal_Raycast(PhysicsScene physicsScene, Ray ray, float maxDistance, ref RaycastHit hit, int layerMask, QueryTriggerInteraction queryTriggerInteraction)
+        {
+            return PhysicsScene.Internal_Raycast(physicsScene, ray, maxDistance, ref hit, layerMask, queryTriggerInteraction);
+        }
+
+        public static int Internal_RaycastNonAlloc(PhysicsScene physicsScene, Ray ray, RaycastHit[] raycastHits, float maxDistance, int mask, QueryTriggerInteraction queryTriggerInteraction)
+        {
+            return PhysicsScene.Internal_RaycastNonAlloc(physicsScene, ray, raycastHits, maxDistance, mask, queryTriggerInteraction);
+        }
+    }
+}

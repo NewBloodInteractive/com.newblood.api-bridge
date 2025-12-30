@@ -6,5 +6,5 @@ public sealed class AnimationClip : Motion
 
     public extern float stopTime { get; }
 
-    public bool hasRootMotion { get; }
+    public extern bool hasRootMotion { get; }
 }

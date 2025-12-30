@@ -4,6 +4,9 @@
         <name>PrivateAPIEngineBridge</name>
     </assembly>
     <members>
+        <member name="T:PrivateAPIBridge.AnimationClipExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.AnimationClip"/>.</summary>
+        </member>
         <member name="T:PrivateAPIBridge.CommandBufferExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Rendering.CommandBuffer"/>.</summary>
         </member>

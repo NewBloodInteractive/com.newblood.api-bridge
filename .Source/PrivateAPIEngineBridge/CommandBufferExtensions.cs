@@ -8,6 +8,8 @@ public static class CommandBufferExtensions
 {
     extension(CommandBuffer @this)
     {
+        // These extensions exist to bypass validation and/or normalization of input in high-performance scenarios.
+
         public void Internal_DrawRenderer(Renderer renderer, Material material, int submeshIndex, int shaderPass)
         {
             @this.Internal_DrawRenderer(renderer, material, submeshIndex, shaderPass);

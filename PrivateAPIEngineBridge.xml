@@ -7,11 +7,65 @@
         <member name="T:PrivateAPIBridge.AnimationClipExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.AnimationClip"/>.</summary>
         </member>
+        <member name="M:PrivateAPIBridge.AnimationClipExtensions.get_startTime(UnityEngine.AnimationClip)">
+            <inheritdoc cref="P:PrivateAPIBridge.AnimationClipExtensions.&lt;G&gt;$87180E789F687AD90B53AC62A3910666.startTime"/>
+        </member>
+        <member name="M:PrivateAPIBridge.AnimationClipExtensions.get_stopTime(UnityEngine.AnimationClip)">
+            <inheritdoc cref="P:PrivateAPIBridge.AnimationClipExtensions.&lt;G&gt;$87180E789F687AD90B53AC62A3910666.stopTime"/>
+        </member>
+        <member name="M:PrivateAPIBridge.AnimationClipExtensions.get_hasRootMotion(UnityEngine.AnimationClip)">
+            <inheritdoc cref="P:PrivateAPIBridge.AnimationClipExtensions.&lt;G&gt;$87180E789F687AD90B53AC62A3910666.hasRootMotion"/>
+        </member>
+        <member name="P:PrivateAPIBridge.AnimationClipExtensions.&lt;G&gt;$87180E789F687AD90B53AC62A3910666.startTime">
+            <summary>Start time in seconds.</summary>
+        </member>
+        <member name="P:PrivateAPIBridge.AnimationClipExtensions.&lt;G&gt;$87180E789F687AD90B53AC62A3910666.stopTime">
+            <summary>Stop time in seconds.</summary>
+        </member>
+        <member name="P:PrivateAPIBridge.AnimationClipExtensions.&lt;G&gt;$87180E789F687AD90B53AC62A3910666.hasRootMotion">
+            <summary>Returns true if the <see cref="T:UnityEngine.AnimationClip"/> has root motion.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.AsyncOperationExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.AsyncOperation"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.AsyncOperationExtensions.GetPtr(UnityEngine.AsyncOperation)">
+            <inheritdoc cref="M:PrivateAPIBridge.AsyncOperationExtensions.&lt;G&gt;$E1E24BCD7E316FBEF1DDD617A0CA13E6.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.AsyncOperationExtensions.&lt;G&gt;$E1E24BCD7E316FBEF1DDD617A0CA13E6.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
         <member name="T:PrivateAPIBridge.CommandBufferExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Rendering.CommandBuffer"/>.</summary>
         </member>
+        <member name="T:PrivateAPIBridge.CoroutineExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.Coroutine"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.CoroutineExtensions.GetPtr(UnityEngine.Coroutine)">
+            <inheritdoc cref="M:PrivateAPIBridge.CoroutineExtensions.&lt;G&gt;$7FE1DCD1EBC8AA0274018BD425855861.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.CoroutineExtensions.&lt;G&gt;$7FE1DCD1EBC8AA0274018BD425855861.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
         <member name="T:PrivateAPIBridge.ObjectExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Object"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.ObjectExtensions.GetCachedPtr(UnityEngine.Object)">
+            <inheritdoc cref="M:PrivateAPIBridge.ObjectExtensions.&lt;G&gt;$91BA3A1FCAE39728B2693A632C857E1E.GetCachedPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.ObjectExtensions.CurrentThreadIsMainThread">
+            <inheritdoc cref="M:PrivateAPIBridge.ObjectExtensions.&lt;G&gt;$91BA3A1FCAE39728B2693A632C857E1E.CurrentThreadIsMainThread"/>
+        </member>
+        <member name="M:PrivateAPIBridge.ObjectExtensions.GetOffsetOfInstanceIDInCPlusPlusObject">
+            <inheritdoc cref="M:PrivateAPIBridge.ObjectExtensions.&lt;G&gt;$91BA3A1FCAE39728B2693A632C857E1E.GetOffsetOfInstanceIDInCPlusPlusObject"/>
+        </member>
+        <member name="M:PrivateAPIBridge.ObjectExtensions.&lt;G&gt;$91BA3A1FCAE39728B2693A632C857E1E.GetCachedPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.ObjectExtensions.&lt;G&gt;$91BA3A1FCAE39728B2693A632C857E1E.CurrentThreadIsMainThread">
+            <summary>Returns true if called from the main thread.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.ObjectExtensions.&lt;G&gt;$91BA3A1FCAE39728B2693A632C857E1E.GetOffsetOfInstanceIDInCPlusPlusObject">
+            <summary>Returns the offset of the <c>m_InstanceID</c> field in the C++ <c>Object</c> class.</summary>
         </member>
         <member name="T:PrivateAPIBridge.PhysicsExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Physics"/>.</summary>
@@ -21,6 +75,21 @@
         </member>
         <member name="T:PrivateAPIBridge.RendererExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Renderer"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.RendererExtensions.GetMaterialCount(UnityEngine.Renderer)">
+            <inheritdoc cref="M:PrivateAPIBridge.RendererExtensions.&lt;G&gt;$70B9E77625CF1C3C021A4C12A62EA1AE.GetMaterialCount"/>
+        </member>
+        <member name="M:PrivateAPIBridge.RendererExtensions.&lt;G&gt;$70B9E77625CF1C3C021A4C12A62EA1AE.GetMaterialCount">
+            <summary>Gets the number of materials on the renderer.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.WaitForSecondsExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.WaitForSeconds"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.WaitForSecondsExtensions.GetSeconds(UnityEngine.WaitForSeconds)">
+            <inheritdoc cref="M:PrivateAPIBridge.WaitForSecondsExtensions.&lt;G&gt;$099725B602701AE1DFD853A9DA688EC9.GetSeconds"/>
+        </member>
+        <member name="M:PrivateAPIBridge.WaitForSecondsExtensions.&lt;G&gt;$099725B602701AE1DFD853A9DA688EC9.GetSeconds">
+            <summary>Gets the amount of time in seconds that execution will be delayed for.</summary>
         </member>
     </members>
 </doc>

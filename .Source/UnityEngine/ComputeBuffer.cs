@@ -2,8 +2,8 @@
 
 namespace UnityEngine;
 
-public class MaterialPropertyBlock
+public sealed class ComputeBuffer
 {
-    // ShaderPropertySheet*
+    // GraphicsBuffer*
     public IntPtr m_Ptr;
 }

@@ -2,8 +2,8 @@
 
 namespace UnityEngine;
 
-public class MaterialPropertyBlock
+public class AnimationCurve
 {
-    // ShaderPropertySheet*
+    // AnimationCurveTpl<float>*
     public IntPtr m_Ptr;
 }

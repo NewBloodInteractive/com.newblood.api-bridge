@@ -25,6 +25,15 @@
         <member name="P:PrivateAPIBridge.AnimationClipExtensions.&lt;G&gt;$87180E789F687AD90B53AC62A3910666.hasRootMotion">
             <summary>Returns true if the <see cref="T:UnityEngine.AnimationClip"/> has root motion.</summary>
         </member>
+        <member name="T:PrivateAPIBridge.AnimationCurveExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.AnimationCurve"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.AnimationCurveExtensions.GetPtr(UnityEngine.AnimationCurve)">
+            <inheritdoc cref="M:PrivateAPIBridge.AnimationCurveExtensions.&lt;G&gt;$74306D0980FDA01B0186C03EB679DA80.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.AnimationCurveExtensions.&lt;G&gt;$74306D0980FDA01B0186C03EB679DA80.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
         <member name="T:PrivateAPIBridge.AsyncOperationExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.AsyncOperation"/>.</summary>
         </member>
@@ -37,6 +46,21 @@
         <member name="T:PrivateAPIBridge.CommandBufferExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Rendering.CommandBuffer"/>.</summary>
         </member>
+        <member name="M:PrivateAPIBridge.CommandBufferExtensions.GetPtr(UnityEngine.Rendering.CommandBuffer)">
+            <inheritdoc cref="M:PrivateAPIBridge.CommandBufferExtensions.&lt;G&gt;$28F2EE25A2DC8F2594DD5FD724DA7DB9.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.CommandBufferExtensions.&lt;G&gt;$28F2EE25A2DC8F2594DD5FD724DA7DB9.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.ComputeBufferExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.ComputeBuffer"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.ComputeBufferExtensions.GetPtr(UnityEngine.ComputeBuffer)">
+            <inheritdoc cref="M:PrivateAPIBridge.ComputeBufferExtensions.&lt;G&gt;$BA6B7672065ABE008DB5533A1B061F14.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.ComputeBufferExtensions.&lt;G&gt;$BA6B7672065ABE008DB5533A1B061F14.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
         <member name="T:PrivateAPIBridge.CoroutineExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Coroutine"/>.</summary>
         </member>
@@ -44,6 +68,60 @@
             <inheritdoc cref="M:PrivateAPIBridge.CoroutineExtensions.&lt;G&gt;$7FE1DCD1EBC8AA0274018BD425855861.GetPtr"/>
         </member>
         <member name="M:PrivateAPIBridge.CoroutineExtensions.&lt;G&gt;$7FE1DCD1EBC8AA0274018BD425855861.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.CullingGroupExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.CullingGroup"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.CullingGroupExtensions.GetPtr(UnityEngine.CullingGroup)">
+            <inheritdoc cref="M:PrivateAPIBridge.CullingGroupExtensions.&lt;G&gt;$1353324D9FA414AC28EF0778C2FEBD8A.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.CullingGroupExtensions.&lt;G&gt;$1353324D9FA414AC28EF0778C2FEBD8A.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.GraphicsBufferExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.GraphicsBuffer"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.GraphicsBufferExtensions.GetPtr(UnityEngine.GraphicsBuffer)">
+            <inheritdoc cref="M:PrivateAPIBridge.GraphicsBufferExtensions.&lt;G&gt;$748A35D4310DE578C922D4ECCDFA3D94.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.GraphicsBufferExtensions.&lt;G&gt;$748A35D4310DE578C922D4ECCDFA3D94.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.GraphicsTextureExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.Rendering.GraphicsTexture"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.GraphicsTextureExtensions.GetPtr(UnityEngine.Rendering.GraphicsTexture)">
+            <inheritdoc cref="M:PrivateAPIBridge.GraphicsTextureExtensions.&lt;G&gt;$3C63A0B0E9F978F99312D729C7ADB7C6.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.GraphicsTextureExtensions.&lt;G&gt;$3C63A0B0E9F978F99312D729C7ADB7C6.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.HumanPoseHandlerExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.HumanPoseHandler"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.HumanPoseHandlerExtensions.GetPtr(UnityEngine.HumanPoseHandler)">
+            <inheritdoc cref="M:PrivateAPIBridge.HumanPoseHandlerExtensions.&lt;G&gt;$8742944454552C97F353BA59E4341107.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.HumanPoseHandlerExtensions.&lt;G&gt;$8742944454552C97F353BA59E4341107.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.MaterialPropertyBlockExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.MaterialPropertyBlock"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.MaterialPropertyBlockExtensions.GetPtr(UnityEngine.MaterialPropertyBlock)">
+            <inheritdoc cref="M:PrivateAPIBridge.MaterialPropertyBlockExtensions.&lt;G&gt;$2D5D871AAFC8FF4ECF2C64E7F9969EC0.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.MaterialPropertyBlockExtensions.&lt;G&gt;$2D5D871AAFC8FF4ECF2C64E7F9969EC0.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.NavMeshPathExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.AI.NavMeshPath"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.NavMeshPathExtensions.GetPtr(UnityEngine.AI.NavMeshPath)">
+            <inheritdoc cref="M:PrivateAPIBridge.NavMeshPathExtensions.&lt;G&gt;$305023D6BA59BFD9CBF172CABAEB91B8.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.NavMeshPathExtensions.&lt;G&gt;$305023D6BA59BFD9CBF172CABAEB91B8.GetPtr">
             <summary>Gets a pointer to the underlying native object.</summary>
         </member>
         <member name="T:PrivateAPIBridge.ObjectExtensions">
@@ -73,6 +151,15 @@
         <member name="T:PrivateAPIBridge.PhysicsSceneExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.PhysicsScene"/>.</summary>
         </member>
+        <member name="T:PrivateAPIBridge.PingExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.Ping"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.PingExtensions.GetPtr(UnityEngine.Ping)">
+            <inheritdoc cref="M:PrivateAPIBridge.PingExtensions.&lt;G&gt;$8A6D7AD233F89F5CDC733D9E49DEA80E.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.PingExtensions.&lt;G&gt;$8A6D7AD233F89F5CDC733D9E49DEA80E.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
         <member name="T:PrivateAPIBridge.RendererExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Renderer"/>.</summary>
         </member>
@@ -81,6 +168,24 @@
         </member>
         <member name="M:PrivateAPIBridge.RendererExtensions.&lt;G&gt;$70B9E77625CF1C3C021A4C12A62EA1AE.GetMaterialCount">
             <summary>Gets the number of materials on the renderer.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.TextGeneratorExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.TextGenerator"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.TextGeneratorExtensions.GetPtr(UnityEngine.TextGenerator)">
+            <inheritdoc cref="M:PrivateAPIBridge.TextGeneratorExtensions.&lt;G&gt;$98D7820D64F04973F55ECC6BE38AFB15.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.TextGeneratorExtensions.&lt;G&gt;$98D7820D64F04973F55ECC6BE38AFB15.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
+        </member>
+        <member name="T:PrivateAPIBridge.TrackedReferenceExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.TrackedReference"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.TrackedReferenceExtensions.GetPtr(UnityEngine.TrackedReference)">
+            <inheritdoc cref="M:PrivateAPIBridge.TrackedReferenceExtensions.&lt;G&gt;$A1E941AD1C95238A97A0BC0FD3FA114C.GetPtr"/>
+        </member>
+        <member name="M:PrivateAPIBridge.TrackedReferenceExtensions.&lt;G&gt;$A1E941AD1C95238A97A0BC0FD3FA114C.GetPtr">
+            <summary>Gets a pointer to the underlying native object.</summary>
         </member>
         <member name="T:PrivateAPIBridge.WaitForSecondsExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.WaitForSeconds"/>.</summary>

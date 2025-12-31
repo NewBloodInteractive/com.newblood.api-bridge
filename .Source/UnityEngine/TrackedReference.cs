@@ -2,8 +2,8 @@
 
 namespace UnityEngine;
 
-public class MaterialPropertyBlock
+public class TrackedReference
 {
-    // ShaderPropertySheet*
+    // TrackedReferenceBase*
     public IntPtr m_Ptr;
 }

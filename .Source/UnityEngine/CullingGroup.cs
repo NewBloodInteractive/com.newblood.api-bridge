@@ -2,8 +2,8 @@
 
 namespace UnityEngine;
 
-public class MaterialPropertyBlock
+public class CullingGroup
 {
-    // ShaderPropertySheet*
+    // CullingGroup*
     public IntPtr m_Ptr;
 }

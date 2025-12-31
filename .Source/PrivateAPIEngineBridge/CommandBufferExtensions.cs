@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Rendering;
 
 namespace PrivateAPIBridge;
@@ -8,6 +9,12 @@ public static class CommandBufferExtensions
 {
     extension(CommandBuffer @this)
     {
+        /// <summary>Gets a pointer to the underlying native object.</summary>
+        public IntPtr GetPtr()
+        {
+            return @this.m_Ptr;
+        }
+
         // These extensions exist to bypass validation and/or normalization of input in high-performance scenarios.
 
         public void Internal_DrawRenderer(Renderer renderer, Material material, int submeshIndex, int shaderPass)

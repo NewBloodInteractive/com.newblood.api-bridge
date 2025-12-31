@@ -2,8 +2,8 @@
 
 namespace UnityEngine;
 
-public class MaterialPropertyBlock
+public sealed class Ping
 {
-    // ShaderPropertySheet*
+    // Ping*
     public IntPtr m_Ptr;
 }

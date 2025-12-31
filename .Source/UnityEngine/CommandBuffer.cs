@@ -2,9 +2,10 @@
 
 namespace UnityEngine.Rendering;
 
-public class CommandBuffer : IDisposable
+public class CommandBuffer
 {
-    public extern void Dispose();
+    // RenderingCommandBuffer*
+    public IntPtr m_Ptr;
     public extern void Internal_DrawRenderer(Renderer renderer, Material material, int submeshIndex, int shaderPass);
     public extern void Internal_DrawMesh(Mesh mesh, Matrix4x4 matrix, Material material, int submeshIndex, int shaderPass, MaterialPropertyBlock properties);
 }

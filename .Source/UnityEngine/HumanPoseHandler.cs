@@ -2,8 +2,8 @@
 
 namespace UnityEngine;
 
-public class MaterialPropertyBlock
+public class HumanPoseHandler
 {
-    // ShaderPropertySheet*
+    // HumanPoseHandler*
     public IntPtr m_Ptr;
 }

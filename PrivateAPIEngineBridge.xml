@@ -151,15 +151,6 @@
         <member name="T:PrivateAPIBridge.PhysicsSceneExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.PhysicsScene"/>.</summary>
         </member>
-        <member name="T:PrivateAPIBridge.PingExtensions">
-            <summary>Provides extensions for <see cref="T:UnityEngine.Ping"/>.</summary>
-        </member>
-        <member name="M:PrivateAPIBridge.PingExtensions.GetPtr(UnityEngine.Ping)">
-            <inheritdoc cref="M:PrivateAPIBridge.PingExtensions.&lt;G&gt;$8A6D7AD233F89F5CDC733D9E49DEA80E.GetPtr"/>
-        </member>
-        <member name="M:PrivateAPIBridge.PingExtensions.&lt;G&gt;$8A6D7AD233F89F5CDC733D9E49DEA80E.GetPtr">
-            <summary>Gets a pointer to the underlying native object.</summary>
-        </member>
         <member name="T:PrivateAPIBridge.RendererExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.Renderer"/>.</summary>
         </member>

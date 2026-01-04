@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Disabled until special handling for WebGL is implemented.
+#if false
+using System;
 using UnityEngine;
 
 namespace PrivateAPIBridge;
@@ -15,3 +17,4 @@ public static class PingExtensions
         }
     }
 }
+#endif

@@ -1,5 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\IgnoresAccessChecksTo.UnityEngine.props" />
+<Project>
+  <Import Project="$(MSBuildThisFileDirectory)IgnoresAccessChecksTo.UnityEngine.props" />
 
   <PropertyGroup>
     <DebugType>embedded</DebugType>
@@ -10,10 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\EmbeddedAttributes\*.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EmbeddedAttributes\*.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UnityEngine\UnityEngine.csproj" Private="False" />
+    <ProjectReference Include="$(MSBuildThisFileDirectory)UnityEngine\UnityEngine.csproj" Private="False" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,8 @@
+<Project>
+  <Import Project="$(MSBuildThisFileDirectory)PrivateAPIEngineBridge.props" />
+  <Import Project="$(MSBuildThisFileDirectory)IgnoresAccessChecksTo.UnityEditor.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="$(MSBuildThisFileDirectory)UnityEditor\UnityEditor.csproj" Private="False" />
+  </ItemGroup>
+</Project>

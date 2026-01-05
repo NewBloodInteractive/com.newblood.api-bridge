@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>PrivateAPIEngineBridge</name>
+        <name>PrivateAPIEngineBridge.Core</name>
     </assembly>
     <members>
         <member name="T:PrivateAPIBridge.AnimationClipExtensions">
@@ -86,15 +86,6 @@
             <inheritdoc cref="M:PrivateAPIBridge.GraphicsBufferExtensions.&lt;G&gt;$748A35D4310DE578C922D4ECCDFA3D94.GetPtr"/>
         </member>
         <member name="M:PrivateAPIBridge.GraphicsBufferExtensions.&lt;G&gt;$748A35D4310DE578C922D4ECCDFA3D94.GetPtr">
-            <summary>Gets a pointer to the underlying native object.</summary>
-        </member>
-        <member name="T:PrivateAPIBridge.GraphicsTextureExtensions">
-            <summary>Provides extensions for <see cref="T:UnityEngine.Rendering.GraphicsTexture"/>.</summary>
-        </member>
-        <member name="M:PrivateAPIBridge.GraphicsTextureExtensions.GetPtr(UnityEngine.Rendering.GraphicsTexture)">
-            <inheritdoc cref="M:PrivateAPIBridge.GraphicsTextureExtensions.&lt;G&gt;$3C63A0B0E9F978F99312D729C7ADB7C6.GetPtr"/>
-        </member>
-        <member name="M:PrivateAPIBridge.GraphicsTextureExtensions.&lt;G&gt;$3C63A0B0E9F978F99312D729C7ADB7C6.GetPtr">
             <summary>Gets a pointer to the underlying native object.</summary>
         </member>
         <member name="T:PrivateAPIBridge.HumanPoseHandlerExtensions">

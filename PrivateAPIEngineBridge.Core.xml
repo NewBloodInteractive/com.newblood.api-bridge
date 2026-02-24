@@ -106,6 +106,21 @@
         <member name="M:PrivateAPIBridge.MaterialPropertyBlockExtensions.&lt;G&gt;$2D5D871AAFC8FF4ECF2C64E7F9969EC0.GetPtr">
             <summary>Gets a pointer to the underlying native object.</summary>
         </member>
+        <member name="T:PrivateAPIBridge.NavMeshExtensions">
+            <summary>Provides extensions for <see cref="T:UnityEngine.AI.NavMesh"/>.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.NavMeshExtensions.GetSettingsByIndex_Injected(System.Int32,UnityEngine.AI.NavMeshBuildSettings@)">
+            <inheritdoc cref="M:PrivateAPIBridge.NavMeshExtensions.&lt;G&gt;$B41CB630F375E361670347A080F9FA1A.GetSettingsByIndex_Injected(System.Int32,UnityEngine.AI.NavMeshBuildSettings@)"/>
+        </member>
+        <member name="M:PrivateAPIBridge.NavMeshExtensions.AddLinkInternal_Injected(UnityEngine.AI.NavMeshLinkData@,UnityEngine.Vector3@,UnityEngine.Quaternion@)">
+            <inheritdoc cref="M:PrivateAPIBridge.NavMeshExtensions.&lt;G&gt;$B41CB630F375E361670347A080F9FA1A.AddLinkInternal_Injected(UnityEngine.AI.NavMeshLinkData@,UnityEngine.Vector3@,UnityEngine.Quaternion@)"/>
+        </member>
+        <member name="M:PrivateAPIBridge.NavMeshExtensions.&lt;G&gt;$B41CB630F375E361670347A080F9FA1A.GetSettingsByIndex_Injected(System.Int32,UnityEngine.AI.NavMeshBuildSettings@)">
+            <summary>Returns an existing entry of NavMesh build settings by its ordered index.</summary>
+        </member>
+        <member name="M:PrivateAPIBridge.NavMeshExtensions.&lt;G&gt;$B41CB630F375E361670347A080F9FA1A.AddLinkInternal_Injected(UnityEngine.AI.NavMeshLinkData@,UnityEngine.Vector3@,UnityEngine.Quaternion@)">
+            <summary>Adds a link to the NavMesh. The link is described by the NavMeshLinkData struct.</summary>
+        </member>
         <member name="T:PrivateAPIBridge.NavMeshPathExtensions">
             <summary>Provides extensions for <see cref="T:UnityEngine.AI.NavMeshPath"/>.</summary>
         </member>
